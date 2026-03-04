@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
-def main(request):
+def members(request):
     return HttpResponse("Hello from Members App")
 
