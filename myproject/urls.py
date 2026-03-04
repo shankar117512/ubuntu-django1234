@@ -21,7 +21,7 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("Django Working Succesfully")
 
-urlspatterns = [
+urlpatterns = [
         path('', home),
         path('admin/', admin.site.urls),
 ]
